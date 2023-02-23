@@ -1,0 +1,31 @@
+p {
+  font-family: Verdana;
+}
+
+.course {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.pro {
+  margin-top: 0px;
+  font-size: 25px;
+  color: grey;
+}
+
+.des {
+  font-size: 24px;
+  width: 450px;
+}
+
+.start {
+  background-color: green;
+  color: white;
+  border: none;
+  width: 160px;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 22px;
+  cursor: pointer;
+}

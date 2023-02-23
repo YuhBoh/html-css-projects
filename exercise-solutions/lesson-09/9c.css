@@ -1,0 +1,10 @@
+.border {
+  font-family: Arial;
+  margin: 0 auto;
+  border: solid;
+  border-width: 1px;
+  border-color: rgb(194, 194, 194);
+  width: 300px;
+  height: 90px;
+  padding-left: 15px;
+}

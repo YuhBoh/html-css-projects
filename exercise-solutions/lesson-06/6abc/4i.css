@@ -1,0 +1,19 @@
+.stretch-space {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-size: 16px;
+  background-color: green;
+  color: white;
+  border: none;
+  transition: padding-top 1s, padding-bottom 1s, padding-left 1s, padding-right 1s;
+  cursor: pointer;
+}
+
+.stretch-space:hover {
+  padding-top: 21px;
+  padding-bottom: 21px;
+  padding-left: 48px;
+  padding-right: 48px;
+}

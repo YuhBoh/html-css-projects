@@ -1,0 +1,26 @@
+p {
+  font-family: Arial;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.shop {
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.apple {
+  margin-bottom: 20px;
+}
+
+.link {
+  color: rgb(58, 108, 199);
+  cursor: pointer;
+}
+
+.link:hover {
+  text-decoration: underline;
+}

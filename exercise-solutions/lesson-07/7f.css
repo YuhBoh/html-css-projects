@@ -1,0 +1,36 @@
+p {
+  font-family: Arial;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.gry {
+  color: rgb(88, 88, 88);
+  margin-bottom: 5px;
+}
+
+.box {
+  width: 400px;
+  height: 25px;
+  border: solid;
+  border-color: grey;
+  border-width: 2px;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+.terms {
+  margin-bottom: 10px;
+  color: rgb(88, 88, 88);
+}
+
+.button {
+  margin-left: 0px;
+  font-size: 18px;
+  background-color: rgb(10, 102, 194);
+  color: white;
+  border: none;
+  height: 50px;
+  width: 400px;
+  border-radius: 25px;
+}

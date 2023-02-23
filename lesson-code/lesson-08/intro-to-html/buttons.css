@@ -1,0 +1,117 @@
+.subscribe-button {
+  background-color: rgb(200, 0, 0);
+  color: white;
+  border: none;
+  height: 36px;
+  width: 105px;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.join-button {
+  background-color: white;
+  border-color: rgb(2, 158, 255);
+  border-style: solid;
+  border-width: 1px;
+  color: rgb(2, 158, 255);
+  height: 36px;
+  width: 62px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.tweet-button {
+  background-color: rgb(2, 158, 255);
+  color: white;
+  border: none;
+  height: 36px;
+  width: 74px;
+  border-radius: 18px;
+  font-weight: bold;
+  font-size: 12px;
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+.uber-request {
+  background-color: black;
+  color: white;
+  height: 36px;
+  width: 110px;
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+.amazon-cart {
+  background-color: rgb(255, 216, 20);
+  color: black;
+  border-radius: 18px;
+  border: none;
+  height: 36px;
+  width: 150px;
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+.github-sign {
+  background-color: rgb(46, 164, 79);
+  color: white;
+  border: none;
+  height: 36px;
+  width: 90px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+.boot-start {
+  background-color: rgb(121, 82, 179);
+  color: white;
+  border: none;
+  height: 36px;
+  width: 110px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-top: 8px;
+}
+
+.boot-down {
+  background-color: white;
+  color: rgb(108, 117, 125);
+  font-weight: bold;
+  border-color: rgb(108, 117, 125);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+  height: 36px;
+  width: 110px;
+  cursor: pointer;
+}
+
+.linkedin-apply {
+  background-color: rgb(10, 102, 194);
+  color: white;
+  border: none;
+  border-radius: 18px;
+  height: 36px;
+  width: 220px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.linkedin-save {
+  background-color: white;
+  color: rgb(10, 102, 194);
+  font-weight: bold;
+  border-color: rgb(10, 102, 194);
+  border-style: solid;
+  border-radius: 18px;
+  height: 36px;
+  width: 70px;
+  cursor: pointer;
+}
