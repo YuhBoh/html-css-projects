@@ -1,0 +1,67 @@
+p {
+  font-family: Arial;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  column-gap: 20px;
+}
+
+.container {
+  box-shadow: 0 0 15px rgba(0, 0, 0, .3);
+  width: 200px;
+  vertical-align: top;
+  margin-right: 15px;
+}
+
+.pic {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: right;
+  margin-bottom: 12px;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 8px;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  color: rgb(100, 100, 100);
+}
+
+.add {
+  background-color: rgb(24, 119, 242);
+  border: none;
+  color: white;
+  border-radius: 3px;
+  margin-left: 5px;
+  margin-bottom: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 16px;
+}
+
+.blahaj {
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+  border-radius: 18px;
+  margin-left: 5px;
+}
+
+.friends-row {
+display: grid;
+grid-template-columns: 35px 1fr;
+align-items: center;
+margin-left: 8px;
+margin-bottom: 10px;
+}

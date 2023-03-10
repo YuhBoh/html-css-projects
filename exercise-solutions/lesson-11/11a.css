@@ -1,0 +1,16 @@
+p {
+  margin: 0px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 200px 75px;
+}
+
+.sky-blue {
+  background-color: skyblue;
+}
+
+.pink {
+  background-color: pink;
+}
