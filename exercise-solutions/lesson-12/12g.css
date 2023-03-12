@@ -1,0 +1,69 @@
+.container {
+  font-family: Arial;
+}
+
+.friends {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.left-side {
+  display: flex;
+  flex-direction: row;
+}
+
+.spacing {
+  padding-left: 20px;
+  width: 300px;
+}
+
+img {
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+  object-position: right;
+  border-radius: 50px;
+}
+
+.name {
+  font-weight: bold;
+  padding-bottom: 5px;
+  font-size: 20px;
+}
+
+.label {
+  color: gray;
+  padding-bottom: 5px;
+  font-size: 20px;
+}
+
+.label2 {
+  color: gray;
+  font-size: 15px;
+}
+
+button {
+  background-color: rgb(29, 155, 240);
+  box-shadow: 2px 2px 5px rgba( 0, 0, 0, .3);
+  font-size: 15px;
+  color: white;
+  border-style: none;
+  border-radius: 5px;
+  font-weight: bold;
+  height: 40px;
+  width: 80px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: .8;
+}
+
+button:active {
+  background-color: rgb(12, 114, 188);
+  margin-left: 2px;
+  margin-top: 2px;
+  box-shadow: 0px 0px 0px rgba( 0, 0, 0, .3);
+}
