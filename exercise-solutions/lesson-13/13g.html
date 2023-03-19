@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Website</title>
+  <link rel="stylesheet" href="13g.css">
+</head>
+
+<style>
+  .container {
+    width: 450px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .left-section {
+    margin-top: 8px;
+    margin-left: 13px;
+  }
+
+  .picture {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    object-position: -18px;
+    border-radius: 25px;
+  }
+
+  .right-section {
+    margin-top: 8px;
+    margin-left: 10px;
+  }
+
+  .name-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .name {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 17px;
+  }
+
+  .name-handle {
+    margin-left: 5px;
+    color: gray;
+    font-family: Arial;
+    font-size: 17px;
+  }
+
+  .tweet {
+    font-family: Arial;
+    margin-top: 3px;
+  }
+
+  .video-container {
+    margin-top: 15px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 15px;
+    border-width: 1px;
+    border-color: rgb(200, 200, 200);
+    border-style: solid;
+    overflow: hidden; /* video-left sharp corners will be hidden in vide-container's border */
+  }
+
+  .video-left {
+    background-color: rgb(220, 220, 220);
+    width: 100px;
+    height: 100px;
+
+  }
+
+  .video-right {
+    flex: 1;
+    margin-left: 10px;
+    font-family: Arial;
+  }
+
+  .video-link {
+    color: gray;
+  }
+
+  .video-title {
+    margin-top: 5px;
+  }
+</style>
+
+<body>
+
+<div class="container">
+  <div class="left-section">
+    <img class="picture" src="pictures/smirk-dog.jpg" alt="">
+  </div>
+
+  <div class="right-section">
+    <div class="name-row">
+      <div class="name">supersimple.dev</div>
+      <div class="name-handle">@SuperSimpleDev</div>
+    </div>
+
+    <div class="tweet">
+      What is backend web development?
+      A complete overview. New video is up!
+    </div>
+
+    <div class="video-container">
+      <div class="video-left"></div>
+      <div class="video-right">
+        <div class="video-link">youtube.com</div>
+        <div class="video-title">
+          Backend web development - a
+          complete overview (2021)
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
