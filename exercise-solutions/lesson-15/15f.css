@@ -1,0 +1,58 @@
+body {
+  height: 3000px;
+}
+
+.container {
+  display: inline-block;
+  position: relative;
+  border: 1px black solid;
+}
+
+.picture {
+  width: 300px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.sale {
+  background-color: black;
+  color: white;
+  font-family: Roboto, Arial;
+  position: absolute;
+  top: 10px;
+  right: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.container2 {
+   position: absolute;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   background-color: rgba(233, 233, 233, 0.7);
+   height: 80px;
+}
+
+button {
+  height: 30px;
+  width: 100px;
+  border: 1px black solid;
+  background-color: rgb(255, 255, 255);
+}
+
+button:hover {
+  cursor: pointer;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+button:active {
+  box-shadow: 0 0 0;
+  margin-left: 5px;
+  margin-top: 5px;
+}
